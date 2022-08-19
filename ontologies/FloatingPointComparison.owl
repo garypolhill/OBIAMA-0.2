@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY owl2 "http://www.w3.org/2006/12/owl2#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.macaulay.ac.uk/obiama/ontologies/FloatingPointComparisons.owl#"
+     xml:base="http://www.macaulay.ac.uk/obiama/ontologies/FloatingPointComparisons.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl2="http://www.w3.org/2006/12/owl2#">
+    <owl:Ontology rdf:about=""/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/FloatingPointComparisons.owl#epsilon -->
+
+    <owl:DatatypeProperty rdf:about="#epsilon">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:range rdf:resource="&xsd;double"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Knuth"/>
+                    <rdf:Description rdf:about="#ToleranceWindow"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/FloatingPointComparisons.owl#offset -->
+
+    <owl:DatatypeProperty rdf:about="#offset">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="#Offset"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/FloatingPointComparisons.owl#significantFigures -->
+
+    <owl:DatatypeProperty rdf:about="#significantFigures">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="#StringConversion"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/FloatingPointComparisons.owl#ulp -->
+
+    <owl:DatatypeProperty rdf:about="#ulp">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="#ULP"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/FloatingPointComparisons.owl#ContractPrecision -->
+
+    <owl:Class rdf:about="#ContractPrecision">
+        <rdfs:subClassOf rdf:resource="#FloatingPointComparisonMethod"/>
+        <owl:disjointWith rdf:resource="#Knuth"/>
+        <owl:disjointWith rdf:resource="#LanguageDefault"/>
+        <owl:disjointWith rdf:resource="#Offset"/>
+        <owl:disjointWith rdf:resource="#StringConversion"/>
+        <owl:disjointWith rdf:resource="#ToleranceWindow"/>
+        <owl:disjointWith rdf:resource="#ULP"/>
+        <rdfs:comment
+            >This floating point comparison method makes comparisons using a lower precision floating point datatype than the operands</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/FloatingPointComparisons.owl#FloatingPointComparisonMethod -->
+
+    <owl:Class rdf:about="#FloatingPointComparisonMethod">
+        <rdfs:comment
+            >This class collects methods for comparing floating point numbers</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/FloatingPointComparisons.owl#Knuth -->
+
+    <owl:Class rdf:about="#Knuth">
+        <rdfs:subClassOf rdf:resource="#FloatingPointComparisonMethod"/>
+        <owl:disjointWith rdf:resource="#LanguageDefault"/>
+        <owl:disjointWith rdf:resource="#Offset"/>
+        <owl:disjointWith rdf:resource="#StringConversion"/>
+        <owl:disjointWith rdf:resource="#ToleranceWindow"/>
+        <owl:disjointWith rdf:resource="#ULP"/>
+        <rdfs:comment
+            >This floating point comparison method implements Donald Knuth&#39;s recommendations as per p. 233 of the third edition of Volume 2 of The Art of Computer Programming (Seminumerical Algorithms)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/FloatingPointComparisons.owl#LanguageDefault -->
+
+    <owl:Class rdf:about="#LanguageDefault">
+        <rdfs:subClassOf rdf:resource="#FloatingPointComparisonMethod"/>
+        <owl:disjointWith rdf:resource="#Offset"/>
+        <owl:disjointWith rdf:resource="#StringConversion"/>
+        <owl:disjointWith rdf:resource="#ToleranceWindow"/>
+        <owl:disjointWith rdf:resource="#ULP"/>
+        <rdfs:comment
+            >This floating point comparison method simply uses the programming language default</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/FloatingPointComparisons.owl#Offset -->
+
+    <owl:Class rdf:about="#Offset">
+        <rdfs:subClassOf rdf:resource="#FloatingPointComparisonMethod"/>
+        <owl:disjointWith rdf:resource="#StringConversion"/>
+        <owl:disjointWith rdf:resource="#ToleranceWindow"/>
+        <owl:disjointWith rdf:resource="#ULP"/>
+        <rdfs:comment
+            >This floating point comparison method adds a power of two to both operands before making a comparison--it is not recommended</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/FloatingPointComparisons.owl#StringConversion -->
+
+    <owl:Class rdf:about="#StringConversion">
+        <rdfs:subClassOf rdf:resource="#FloatingPointComparisonMethod"/>
+        <owl:disjointWith rdf:resource="#ToleranceWindow"/>
+        <owl:disjointWith rdf:resource="#ULP"/>
+        <rdfs:comment
+            >This floating point comparison converts the floating point numbers into strings with a specified number of decimal places and compares the parsed results</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/FloatingPointComparisons.owl#ToleranceWindow -->
+
+    <owl:Class rdf:about="#ToleranceWindow">
+        <rdfs:subClassOf rdf:resource="#FloatingPointComparisonMethod"/>
+        <owl:disjointWith rdf:resource="#ULP"/>
+        <rdfs:comment
+            >This floating point comparison method uses a specified tolerance for all comparisons</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/FloatingPointComparisons.owl#ULP -->
+
+    <owl:Class rdf:about="#ULP">
+        <rdfs:subClassOf rdf:resource="#FloatingPointComparisonMethod"/>
+        <rdfs:comment
+            >This floating point comparison method uses a multiplier of the unit in the last place of one of the operands as the tolerance</rdfs:comment>
+    </owl:Class>
+</rdf:RDF>

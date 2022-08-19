@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1354909070450" name="http://openprovenance.org/model/opmo" uri="opmo-20101012.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1354909070450" name="http://openprovenance.org/ontology" uri="opm.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1354909070450" name="http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl" uri="ACCSpace.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1354909070450" name="http://www.macaulay.ac.uk/obiama/ontologies/FloatingPointComparisons.owl" uri="FloatingPointComparison.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1354909070450" name="http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl" uri="Schedule.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1354909070450" name="http://www.macaulay.ac.uk/obiama/ontologies/space.owl" uri="Space.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1354909070450" name="http://www.obiama.org/ontology/obiama.owl" uri="obiama.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1354909070450" name="duplicate:http://www.w3.org/ns/prov" uri="prov-20120724-rdfxml.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1354909070450" name="duplicate:http://www.w3.org/ns/prov" uri="prov-20120724.owl"/>
+    </group>
+</catalog>

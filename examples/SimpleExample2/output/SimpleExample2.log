@@ -1,0 +1,1447 @@
+COMMAND_LINE_ARGUMENTS:
+	save.last = /Users/gp1073/Documents/doc/research/projects/obiama/Release/OBIAMA-0.2/examples/SimpleExample2/output
+	state.ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+	schedule = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl
+	background = true
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2.owl
+	log = SimpleExample2.log
+	use.reasoner = true
+	ontology.search.path = /Users/gp1073/Documents/doc/research/projects/obiama/Release/OBIAMA-0.2/examples/SimpleExample2:/Users/gp1073/Documents/doc/research/projects/obiama/Release/OBIAMA-0.2/examples/SimpleExample2/../../ontologies
+	main.schedule = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#schedule
+LOAD_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2.owl
+	physical-uri = file:/Users/gp1073/Documents/doc/research/projects/obiama/Release/OBIAMA-0.2/examples/SimpleExample2/SimpleExample2.owl
+	is-imported = false
+LOAD_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/FloatingPointComparisons.owl
+	physical-uri = file:/Users/gp1073/Documents/doc/research/projects/obiama/Release/OBIAMA-0.2/examples/SimpleExample2/../../ontologies/FloatingPointComparison.owl
+	is-imported = true
+LOAD_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl
+	physical-uri = file:/Users/gp1073/Documents/doc/research/projects/obiama/Release/OBIAMA-0.2/examples/SimpleExample2/../../ontologies/Schedule.owl
+	is-imported = true
+LOAD_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl
+	physical-uri = file:/Users/gp1073/Documents/doc/research/projects/obiama/Release/OBIAMA-0.2/examples/SimpleExample2/SimpleExample2-Schedule.owl
+	is-imported = false
+RESET:
+	runID = obiama-ffffffff8fea4c96-1359f28af3b
+LOAD_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+	physical-uri = file:/Users/gp1073/Documents/doc/research/projects/obiama/Release/OBIAMA-0.2/examples/SimpleExample2/SimpleExample2-Init.owl
+	is-imported = false
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+RNG:
+	RNG-class = MTRNG
+SEED:
+	seed = 413249494
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "0"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "1"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = ClassAssertion(Agent agent0)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 4
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "1"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "2"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "2"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "3"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "3"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "4"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "4"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "5"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "5"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "6"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "6"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "7"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "7"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "8"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "8"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "9"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "9"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "10"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "10"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "11"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "11"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "12"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "12"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "13"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "13"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "14"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "14"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "15"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "15"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "16"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "16"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "17"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "17"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "18"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "18"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "19"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "19"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "20"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "20"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "21"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "21"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "22"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "22"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "23"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "23"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "24"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "24"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "25"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "25"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "26"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "26"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "27"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "27"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "28"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "28"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "29"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "29"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "30"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "30"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "31"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "31"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "32"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "32"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "33"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "33"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "34"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "34"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "35"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "35"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "36"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "36"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "37"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "37"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "38"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "38"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "39"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "39"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "40"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "40"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "41"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "41"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "42"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "42"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "43"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "43"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "44"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "44"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "45"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "45"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "46"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "46"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "47"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "47"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "48"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "48"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "49"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "49"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "50"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "50"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "51"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "51"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "52"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "52"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "53"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "53"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "54"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "54"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "55"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "55"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "56"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "56"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "57"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "57"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "58"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "58"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "59"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "59"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "60"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "60"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "61"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "61"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "62"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "62"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "63"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "63"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "64"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "64"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "65"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "65"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "66"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "66"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "67"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "67"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "68"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "68"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "69"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "69"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "70"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "70"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "71"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "71"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "72"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "72"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "73"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "73"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "74"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "74"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "75"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "75"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "76"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "76"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "77"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "77"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "78"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "78"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "79"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "79"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "80"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "80"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "81"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "81"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "82"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "82"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "83"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "83"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "84"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "84"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "85"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "85"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "86"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "86"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "87"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "87"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "88"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "88"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "89"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "89"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "90"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "90"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "91"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "91"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "92"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "92"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "93"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "93"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "94"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "94"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "95"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "95"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "96"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "96"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "97"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "97"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "98"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "98"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "99"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+	physical-uri = file:/Users/gp1073/Documents/doc/research/projects/obiama/Release/OBIAMA-0.2/examples/SimpleExample2/output/SimpleExample2-Init.owl
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "99"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age agent0 "100"^^int)
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample2-Init.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+RESET:
+	runID = obiama-ffffffff8fea4c96-1359f28b61b

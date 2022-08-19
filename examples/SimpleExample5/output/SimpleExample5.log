@@ -1,0 +1,83 @@
+COMMAND_LINE_ARGUMENTS:
+	schedule = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample5-Schedule.owl
+	ontology.search.path = /Users/gp40285/OBIAMA-0.2/examples/SimpleExample5:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample5/../../ontologies
+	save.inferred = true
+	provenance = OPM
+	initial.schedule = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample5-Schedule.owl#initialisation
+	save.last = /Users/gp40285/OBIAMA-0.2/examples/SimpleExample5/output
+	use.reasoner = true
+	log = SimpleExample5.log
+	main.schedule = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample5-Schedule.owl#schedule
+	history.provenance = http://www.macaulay.ac.uk/obiama/ontologies/SimpEG5-provenance.owl
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample5.owl
+LOAD_ONTOLOGY_SUCCESS:
+	logical-uri = http://purl.org/net/opmv/ns
+	physical-uri = http://purl.org/net/opmv/ns
+	is-imported = true
+LOAD_ONTOLOGY_FAIL:
+	logical-uri (not supplied)
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample5/../../ontologies/opmo-20101012.owl
+	is-imported = false
+	exception = org.semanticweb.owl.io.UnparsableOntologyException
+	message = Problem parsing file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample5/../../ontologies/opmo-20101012.owl
+Could not parse ontology.  Either a suitable parser could not be found, or parsing failed.  See parser logs below for explanation.
+The following parsers were tried.
+1) org.coode.owl.rdfxml.parser.RDFXMLParser
+2) org.coode.owl.owlxmlparser.OWLXMLParser
+3) org.coode.owl.functionalparser.OWLFunctionalSyntaxOWLParser
+4) uk.ac.manchester.cs.owl.turtle.parser.TurtleOntologyParser
+5) org.coode.manchesterowlsyntax.ManchesterOWLSyntaxOntologyParser
+6) org.coode.obo.parser.OWLOBOParser
+7) de.uulm.ecs.ai.owl.krssparser.KRSS2OWLParser
+
+
+Detailed logs:
+--------------------------------------------------------------------------------
+Parser class: org.coode.owl.rdfxml.parser.RDFXMLParser
+null
+
+--------------------------------------------------------------------------------
+Parser class: org.coode.owl.owlxmlparser.OWLXMLParser
+(Current element RDF
+
+--------------------------------------------------------------------------------
+Parser class: org.coode.owl.functionalparser.OWLFunctionalSyntaxOWLParser
+org.coode.owl.functionalparser.ParseException: Encountered "<" at line 1, column 1.
+Was expecting one of:
+    "Ontology" ...
+    "Namespace" ...
+     (Line 0)
+
+--------------------------------------------------------------------------------
+Parser class: uk.ac.manchester.cs.owl.turtle.parser.TurtleOntologyParser
+java.net.URISyntaxException: Illegal character in query at index 4: ?xml version="1.0"?
+
+--------------------------------------------------------------------------------
+Parser class: org.coode.manchesterowlsyntax.ManchesterOWLSyntaxOntologyParser
+org.semanticweb.owl.expression.ParserException: Encountered <?xml at line 0 column 0. Expected one of:
+	Individual:
+	Imports:
+	Class:
+	DataProperty:
+	ObjectProperty:
+	ValuePartition:
+
+
+--------------------------------------------------------------------------------
+Parser class: org.coode.obo.parser.OWLOBOParser
+org.coode.obo.parser.ParseException: Encountered "<!DOCTYPE rdf" at line 4, column 1.
+Was expecting:
+    "\n" ...
+    
+
+--------------------------------------------------------------------------------
+Parser class: de.uulm.ecs.ai.owl.krssparser.KRSS2OWLParser
+de.uulm.ecs.ai.owl.krssparser.ParseException: Encountered "<?xml version=\"1.0\"?>" at line 1, column 1.
+Was expecting one of:
+    <EOF> 
+    "(" ...
+    "end-tbox" ...
+    "end-abox" ...
+    
+
+

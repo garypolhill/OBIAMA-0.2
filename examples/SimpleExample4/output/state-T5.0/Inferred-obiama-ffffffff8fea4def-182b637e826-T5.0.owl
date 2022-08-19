@@ -1,0 +1,356 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY owl2 "http://www.w3.org/2006/12/owl2#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY obiama "http://www.obiama.org/ontology/obiama.owl#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY schedule "http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#" >
+    <!ENTITY Incrementer "http://www.obiama.org/ontology/built-in/action/Incrementer.owl#" >
+    <!ENTITY SimpleExample4 "http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4.owl#" >
+    <!ENTITY PoissonDist "http://www.obiama.org/ontology/built-in/creator/PoissonDist.owl#" >
+    <!ENTITY CreateNAgents "http://www.obiama.org/ontology/built-in/action/CreateNAgents.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T5.0.owl#"
+     xml:base="http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T5.0.owl"
+     xmlns:PoissonDist="http://www.obiama.org/ontology/built-in/creator/PoissonDist.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:Incrementer="http://www.obiama.org/ontology/built-in/action/Incrementer.owl#"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:schedule="http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:SimpleExample4="http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4.owl#"
+     xmlns:CreateNAgents="http://www.obiama.org/ontology/built-in/action/CreateNAgents.owl#"
+     xmlns:owl2="http://www.w3.org/2006/12/owl2#"
+     xmlns:obiama="http://www.obiama.org/ontology/obiama.owl#">
+    <owl:Ontology rdf:about=""/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#hasActionGroup -->
+
+    <owl:ObjectProperty rdf:about="&schedule;hasActionGroup"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#hasAgent -->
+
+    <owl:ObjectProperty rdf:about="&schedule;hasAgent"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#hasParameters -->
+
+    <owl:ObjectProperty rdf:about="&schedule;hasParameters"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#implementedBy -->
+
+    <owl:ObjectProperty rdf:about="&schedule;implementedBy"/>
+    
+
+
+    <!-- http://www.obiama.org/ontology/obiama.owl#hasCreator -->
+
+    <owl:ObjectProperty rdf:about="&obiama;hasCreator"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4.owl#age -->
+
+    <owl:DatatypeProperty rdf:about="&SimpleExample4;age"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#className -->
+
+    <owl:DatatypeProperty rdf:about="&schedule;className"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#parameterName -->
+
+    <owl:DatatypeProperty rdf:about="&schedule;parameterName"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#parameterValue -->
+
+    <owl:DatatypeProperty rdf:about="&schedule;parameterValue"/>
+    
+
+
+    <!-- http://www.obiama.org/ontology/built-in/action/Incrementer.owl#incrementedProperty -->
+
+    <owl:DatatypeProperty rdf:about="&Incrementer;incrementedProperty"/>
+    
+
+
+    <!-- http://www.obiama.org/ontology/built-in/creator/PoissonDist.owl#poissonDistributedProperty -->
+
+    <owl:DatatypeProperty rdf:about="&PoissonDist;poissonDistributedProperty"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4.owl#Agent -->
+
+    <owl:Class rdf:about="&SimpleExample4;Agent"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#Action -->
+
+    <owl:Class rdf:about="&schedule;Action"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#ActionParameter -->
+
+    <owl:Class rdf:about="&schedule;ActionParameter"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#Agent -->
+
+    <owl:Class rdf:about="&schedule;Agent"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#Implementation -->
+
+    <owl:Class rdf:about="&schedule;Implementation"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#IndividualAction -->
+
+    <owl:Class rdf:about="&schedule;IndividualAction"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#NonTimedSchedule -->
+
+    <owl:Class rdf:about="&schedule;NonTimedSchedule"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#Process -->
+
+    <owl:Class rdf:about="&schedule;Process"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#Schedule -->
+
+    <owl:Class rdf:about="&schedule;Schedule"/>
+    
+
+
+    <!-- http://www.obiama.org/ontology/built-in/action/CreateNAgents.owl#CreatedThing -->
+
+    <owl:Class rdf:about="&CreateNAgents;CreatedThing"/>
+    
+
+
+    <!-- http://www.obiama.org/ontology/built-in/action/Incrementer.owl#IncrementedThing -->
+
+    <owl:Class rdf:about="&Incrementer;IncrementedThing"/>
+    
+
+
+    <!-- http://www.obiama.org/ontology/obiama.owl#Actant -->
+
+    <owl:Class rdf:about="&obiama;Actant"/>
+    
+
+
+    <!-- http://www.obiama.org/ontology/obiama.owl#Agent -->
+
+    <owl:Class rdf:about="&obiama;Agent"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="&owl;Thing"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4.owl#Agent_1 -->
+
+    <owl:Thing rdf:about="&SimpleExample4;Agent_1">
+        <rdf:type rdf:resource="&SimpleExample4;Agent"/>
+        <rdf:type rdf:resource="&CreateNAgents;CreatedThing"/>
+        <rdf:type rdf:resource="&Incrementer;IncrementedThing"/>
+        <Incrementer:incrementedProperty rdf:datatype="&xsd;int">20</Incrementer:incrementedProperty>
+        <SimpleExample4:age rdf:datatype="&xsd;int">20</SimpleExample4:age>
+        <PoissonDist:poissonDistributedProperty rdf:datatype="&xsd;int">20</PoissonDist:poissonDistributedProperty>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4.owl#Agent_2 -->
+
+    <CreateNAgents:CreatedThing rdf:about="&SimpleExample4;Agent_2">
+        <rdf:type rdf:resource="&SimpleExample4;Agent"/>
+        <rdf:type rdf:resource="&Incrementer;IncrementedThing"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <SimpleExample4:age rdf:datatype="&xsd;int">24</SimpleExample4:age>
+        <Incrementer:incrementedProperty rdf:datatype="&xsd;int">24</Incrementer:incrementedProperty>
+        <PoissonDist:poissonDistributedProperty rdf:datatype="&xsd;int">24</PoissonDist:poissonDistributedProperty>
+    </CreateNAgents:CreatedThing>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4.owl#Agent_3 -->
+
+    <Incrementer:IncrementedThing rdf:about="&SimpleExample4;Agent_3">
+        <rdf:type rdf:resource="&SimpleExample4;Agent"/>
+        <rdf:type rdf:resource="&CreateNAgents;CreatedThing"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <Incrementer:incrementedProperty rdf:datatype="&xsd;int">22</Incrementer:incrementedProperty>
+        <PoissonDist:poissonDistributedProperty rdf:datatype="&xsd;int">22</PoissonDist:poissonDistributedProperty>
+        <SimpleExample4:age rdf:datatype="&xsd;int">22</SimpleExample4:age>
+    </Incrementer:IncrementedThing>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4.owl#Agent_4 -->
+
+    <CreateNAgents:CreatedThing rdf:about="&SimpleExample4;Agent_4">
+        <rdf:type rdf:resource="&SimpleExample4;Agent"/>
+        <rdf:type rdf:resource="&Incrementer;IncrementedThing"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <Incrementer:incrementedProperty rdf:datatype="&xsd;int">31</Incrementer:incrementedProperty>
+        <SimpleExample4:age rdf:datatype="&xsd;int">31</SimpleExample4:age>
+        <PoissonDist:poissonDistributedProperty rdf:datatype="&xsd;int">31</PoissonDist:poissonDistributedProperty>
+    </CreateNAgents:CreatedThing>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4.owl#Agent_5 -->
+
+    <SimpleExample4:Agent rdf:about="&SimpleExample4;Agent_5">
+        <rdf:type rdf:resource="&CreateNAgents;CreatedThing"/>
+        <rdf:type rdf:resource="&Incrementer;IncrementedThing"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <PoissonDist:poissonDistributedProperty rdf:datatype="&xsd;int">22</PoissonDist:poissonDistributedProperty>
+        <SimpleExample4:age rdf:datatype="&xsd;int">22</SimpleExample4:age>
+        <Incrementer:incrementedProperty rdf:datatype="&xsd;int">22</Incrementer:incrementedProperty>
+    </SimpleExample4:Agent>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4.owl#genid1 -->
+
+    <rdf:Description rdf:about="&SimpleExample4;genid1"/>
+    <owl:Thing>
+        <obiama:hasCreator rdf:resource="&SimpleExample4;sampleAgeSchedule"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4.owl#sampleAgeAction -->
+
+    <owl:Thing rdf:about="&SimpleExample4;sampleAgeAction">
+        <rdf:type rdf:resource="&schedule;Action"/>
+        <rdf:type rdf:resource="&schedule;IndividualAction"/>
+        <rdf:type rdf:resource="&schedule;Process"/>
+        <schedule:implementedBy rdf:resource="&SimpleExample4;sampleAgeImplementation"/>
+        <schedule:hasParameters rdf:resource="&SimpleExample4;sampleAgeMean"/>
+        <schedule:hasAgent rdf:resource="&schedule;exogenousAgent"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4.owl#sampleAgeImplementation -->
+
+    <schedule:Implementation rdf:about="&SimpleExample4;sampleAgeImplementation">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <schedule:className
+            >uk.ac.macaulay.obiama.action.PoissonDistCreator</schedule:className>
+    </schedule:Implementation>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4.owl#sampleAgeMean -->
+
+    <schedule:ActionParameter rdf:about="&SimpleExample4;sampleAgeMean">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <schedule:parameterValue rdf:datatype="&xsd;string">20</schedule:parameterValue>
+        <schedule:parameterName rdf:datatype="&xsd;string">mean</schedule:parameterName>
+    </schedule:ActionParameter>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4.owl#sampleAgeSchedule -->
+
+    <schedule:Schedule rdf:about="&SimpleExample4;sampleAgeSchedule">
+        <rdf:type rdf:resource="&schedule;NonTimedSchedule"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <schedule:hasActionGroup rdf:resource="&SimpleExample4;sampleAgeAction"/>
+    </schedule:Schedule>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#exogenousAgent -->
+
+    <owl:Thing rdf:about="&schedule;exogenousAgent">
+        <rdf:type rdf:resource="&schedule;Agent"/>
+        <rdf:type rdf:resource="&obiama;Actant"/>
+        <rdf:type rdf:resource="&obiama;Agent"/>
+    </owl:Thing>
+</rdf:RDF>

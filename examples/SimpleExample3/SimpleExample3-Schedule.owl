@@ -1,0 +1,260 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY schedule "http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#" >
+    <!ENTITY SimpleExample3-Schedule "http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample3-Schedule.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample3-Schedule.owl#"
+     xml:base="http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample3-Schedule.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:schedule="http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#"
+     xmlns:SimpleExample3-Schedule="http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample3-Schedule.owl#"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="">
+        <owl:imports rdf:resource="http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#hasActionGroup -->
+
+    <owl:ObjectProperty rdf:about="&schedule;hasActionGroup"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#hasFirstActionGroup -->
+
+    <owl:ObjectProperty rdf:about="&schedule;hasFirstActionGroup"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#hasNextActionGroup -->
+
+    <owl:ObjectProperty rdf:about="&schedule;hasNextActionGroup"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#hasRecurrentActionGroup -->
+
+    <owl:ObjectProperty rdf:about="&schedule;hasRecurrentActionGroup"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#implementedBy -->
+
+    <owl:ObjectProperty rdf:about="&schedule;implementedBy"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#className -->
+
+    <owl:DatatypeProperty rdf:about="&schedule;className"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#clockTick -->
+
+    <owl:DatatypeProperty rdf:about="&schedule;clockTick"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#hasAgentClass -->
+
+    <owl:DatatypeProperty rdf:about="&schedule;hasAgentClass"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#interval -->
+
+    <owl:DatatypeProperty rdf:about="&schedule;interval"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#startTime -->
+
+    <owl:DatatypeProperty rdf:about="&schedule;startTime"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#stopTime -->
+
+    <owl:DatatypeProperty rdf:about="&schedule;stopTime"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#uriExtension -->
+
+    <owl:DatatypeProperty rdf:about="&schedule;uriExtension"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#Implementation -->
+
+    <owl:Class rdf:about="&schedule;Implementation"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#RandomOrderActionForEach -->
+
+    <owl:Class rdf:about="&schedule;RandomOrderActionForEach"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#RecurrentTimedActionGroup -->
+
+    <owl:Class rdf:about="&schedule;RecurrentTimedActionGroup"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#Schedule -->
+
+    <owl:Class rdf:about="&schedule;Schedule"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl#SequentialActionGroup -->
+
+    <owl:Class rdf:about="&schedule;SequentialActionGroup"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="&owl;Thing"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample3-Schedule.owl#incrementAgeAction -->
+
+    <owl:Thing rdf:about="&SimpleExample3-Schedule;incrementAgeAction">
+        <rdf:type rdf:resource="&schedule;RandomOrderActionForEach"/>
+        <schedule:hasAgentClass rdf:datatype="&xsd;anyURI"
+            >http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample3.owl#Agent</schedule:hasAgentClass>
+        <schedule:uriExtension>age</schedule:uriExtension>
+        <schedule:implementedBy rdf:resource="&SimpleExample3-Schedule;incrementerImplementation"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample3-Schedule.owl#incrementAgeSequence -->
+
+    <owl:Thing rdf:about="&SimpleExample3-Schedule;incrementAgeSequence">
+        <rdf:type rdf:resource="&schedule;SequentialActionGroup"/>
+        <schedule:hasFirstActionGroup rdf:resource="&SimpleExample3-Schedule;incrementAgeAction"/>
+        <schedule:hasNextActionGroup rdf:resource="#incrementShoeSizeSequence"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample3-Schedule.owl#incrementRecurrence -->
+
+    <schedule:RecurrentTimedActionGroup rdf:about="&SimpleExample3-Schedule;incrementRecurrence">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <schedule:startTime rdf:datatype="&xsd;double">1</schedule:startTime>
+        <schedule:interval rdf:datatype="&xsd;double">1</schedule:interval>
+        <schedule:hasRecurrentActionGroup rdf:resource="&SimpleExample3-Schedule;incrementAgeSequence"/>
+    </schedule:RecurrentTimedActionGroup>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample3-Schedule.owl#incrementerImplementation -->
+
+    <owl:Thing rdf:about="&SimpleExample3-Schedule;incrementerImplementation">
+        <rdf:type rdf:resource="&schedule;Implementation"/>
+        <schedule:className
+            >uk.ac.macaulay.obiama.action.IncrementerActivity</schedule:className>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample3-Schedule.owl#schedule -->
+
+    <owl:Thing rdf:about="&SimpleExample3-Schedule;schedule">
+        <rdf:type rdf:resource="&schedule;Schedule"/>
+        <schedule:startTime rdf:datatype="&xsd;double">1</schedule:startTime>
+        <schedule:clockTick rdf:datatype="&xsd;double">1</schedule:clockTick>
+        <schedule:stopTime rdf:datatype="&xsd;double">100</schedule:stopTime>
+        <schedule:hasActionGroup rdf:resource="&SimpleExample3-Schedule;incrementRecurrence"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample3-Schedule.owl#incrementShoeSizeAction -->
+
+    <owl:Thing rdf:about="#incrementShoeSizeAction">
+        <rdf:type rdf:resource="&schedule;RandomOrderActionForEach"/>
+        <schedule:hasAgentClass rdf:datatype="&xsd;anyURI"
+            >http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample3.owl#Agent</schedule:hasAgentClass>
+        <schedule:uriExtension>shoeSize</schedule:uriExtension>
+        <schedule:implementedBy rdf:resource="&SimpleExample3-Schedule;incrementerImplementation"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample3-Schedule.owl#incrementShoeSizeSequence -->
+
+    <owl:Thing rdf:about="#incrementShoeSizeSequence">
+        <rdf:type rdf:resource="&schedule;SequentialActionGroup"/>
+        <schedule:hasFirstActionGroup rdf:resource="#incrementShoeSizeAction"/>
+    </owl:Thing>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 2.2.1.1138) http://owlapi.sourceforge.net -->
+

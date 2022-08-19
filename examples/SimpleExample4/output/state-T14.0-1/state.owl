@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY owl2 "http://www.w3.org/2006/12/owl2#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY SimpleExample4 "http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4.owl#" >
+]>
+
+
+<rdf:RDF xmlns="state.owl#"
+     xml:base="state.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:SimpleExample4="http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4.owl#"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl2="http://www.w3.org/2006/12/owl2#">
+    <owl:Ontology rdf:about="">
+        <owl:imports rdf:resource="http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4.owl#age -->
+
+    <owl:DatatypeProperty rdf:about="&SimpleExample4;age"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4.owl#Agent -->
+
+    <owl:Class rdf:about="&SimpleExample4;Agent"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4.owl#Agent_1 -->
+
+    <rdf:Description rdf:about="&SimpleExample4;Agent_1"/>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl2;Axiom"/>
+        <rdf:subject rdf:resource="&SimpleExample4;Agent_1"/>
+        <rdf:predicate rdf:resource="&rdf;type"/>
+        <rdf:object rdf:resource="&SimpleExample4;Agent"/>
+        <rdfs:comment
+            >uk.ac.macaulay.obiama.action.CreateNAgentsAction</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl2;Axiom"/>
+        <rdf:subject rdf:resource="&SimpleExample4;Agent_1"/>
+        <rdf:predicate rdf:resource="&SimpleExample4;age"/>
+        <rdf:object rdf:datatype="&xsd;int">30</rdf:object>
+        <rdfs:comment
+            >uk.ac.macaulay.obiama.action.IncrementerActivity</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4.owl#Agent_2 -->
+
+    <rdf:Description rdf:about="&SimpleExample4;Agent_2"/>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl2;Axiom"/>
+        <rdf:subject rdf:resource="&SimpleExample4;Agent_2"/>
+        <rdf:predicate rdf:resource="&rdf;type"/>
+        <rdf:object rdf:resource="&SimpleExample4;Agent"/>
+        <rdfs:comment
+            >uk.ac.macaulay.obiama.action.CreateNAgentsAction</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl2;Axiom"/>
+        <rdf:subject rdf:resource="&SimpleExample4;Agent_2"/>
+        <rdf:predicate rdf:resource="&SimpleExample4;age"/>
+        <rdf:object rdf:datatype="&xsd;int">34</rdf:object>
+        <rdfs:comment
+            >uk.ac.macaulay.obiama.action.IncrementerActivity</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4.owl#Agent_3 -->
+
+    <rdf:Description rdf:about="&SimpleExample4;Agent_3"/>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl2;Axiom"/>
+        <rdf:subject rdf:resource="&SimpleExample4;Agent_3"/>
+        <rdf:predicate rdf:resource="&SimpleExample4;age"/>
+        <rdf:object rdf:datatype="&xsd;int">32</rdf:object>
+        <rdfs:comment
+            >uk.ac.macaulay.obiama.action.IncrementerActivity</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl2;Axiom"/>
+        <rdf:subject rdf:resource="&SimpleExample4;Agent_3"/>
+        <rdf:predicate rdf:resource="&rdf;type"/>
+        <rdf:object rdf:resource="&SimpleExample4;Agent"/>
+        <rdfs:comment
+            >uk.ac.macaulay.obiama.action.CreateNAgentsAction</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4.owl#Agent_4 -->
+
+    <rdf:Description rdf:about="&SimpleExample4;Agent_4"/>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl2;Axiom"/>
+        <rdf:subject rdf:resource="&SimpleExample4;Agent_4"/>
+        <rdf:predicate rdf:resource="&SimpleExample4;age"/>
+        <rdf:object rdf:datatype="&xsd;int">40</rdf:object>
+        <rdfs:comment
+            >uk.ac.macaulay.obiama.action.IncrementerActivity</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl2;Axiom"/>
+        <rdf:subject rdf:resource="&SimpleExample4;Agent_4"/>
+        <rdf:predicate rdf:resource="&rdf;type"/>
+        <rdf:object rdf:resource="&SimpleExample4;Agent"/>
+        <rdfs:comment
+            >uk.ac.macaulay.obiama.action.CreateNAgentsAction</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4.owl#Agent_5 -->
+
+    <rdf:Description rdf:about="&SimpleExample4;Agent_5"/>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl2;Axiom"/>
+        <rdf:subject rdf:resource="&SimpleExample4;Agent_5"/>
+        <rdf:predicate rdf:resource="&rdf;type"/>
+        <rdf:object rdf:resource="&SimpleExample4;Agent"/>
+        <rdfs:comment
+            >uk.ac.macaulay.obiama.action.CreateNAgentsAction</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl2;Axiom"/>
+        <rdf:subject rdf:resource="&SimpleExample4;Agent_5"/>
+        <rdf:predicate rdf:resource="&SimpleExample4;age"/>
+        <rdf:object rdf:datatype="&xsd;int">32</rdf:object>
+        <rdfs:comment
+            >uk.ac.macaulay.obiama.action.IncrementerActivity</rdfs:comment>
+    </rdf:Description>
+</rdf:RDF>

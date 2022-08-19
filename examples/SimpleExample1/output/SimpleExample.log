@@ -1,0 +1,26 @@
+COMMAND_LINE_ARGUMENTS:
+	save.last = /Users/gp1073/Documents/doc/research/projects/obiama/Release/OBIAMA-0.2/examples/SimpleExample1/output
+	state.ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample-Init.owl
+	schedule = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample-Schedule.owl
+	save.inferred = true
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample.owl
+	log = SimpleExample.log
+	use.reasoner = true
+	ontology.search.path = /Users/gp1073/Documents/doc/research/projects/obiama/Release/OBIAMA-0.2/examples/SimpleExample1:/Users/gp1073/Documents/doc/research/projects/obiama/Release/OBIAMA-0.2/examples/SimpleExample1/../../ontologies
+	main.schedule = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample-Schedule.owl#schedule
+LOAD_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample.owl
+	physical-uri = file:/Users/gp1073/Documents/doc/research/projects/obiama/Release/OBIAMA-0.2/examples/SimpleExample1/SimpleExample.owl
+	is-imported = false
+LOAD_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/FloatingPointComparisons.owl
+	physical-uri = file:/Users/gp1073/Documents/doc/research/projects/obiama/Release/OBIAMA-0.2/examples/SimpleExample1/../../ontologies/FloatingPointComparison.owl
+	is-imported = true
+LOAD_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl
+	physical-uri = file:/Users/gp1073/Documents/doc/research/projects/obiama/Release/OBIAMA-0.2/examples/SimpleExample1/../../ontologies/Schedule.owl
+	is-imported = true
+LOAD_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample-Schedule.owl
+	physical-uri = file:/Users/gp1073/Documents/doc/research/projects/obiama/Release/OBIAMA-0.2/examples/SimpleExample1/SimpleExample-Schedule.owl
+	is-imported = false

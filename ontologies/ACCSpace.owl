@@ -1,0 +1,988 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY owl2 "http://www.w3.org/2006/12/owl2#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#"
+     xml:base="http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl2="http://www.w3.org/2006/12/owl2#">
+    <owl:Ontology rdf:about="">
+        <owl:imports rdf:resource="http://www.macaulay.ac.uk/obiama/ontologies/space.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#boundaryOf -->
+
+    <owl:ObjectProperty rdf:about="#boundaryOf"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#boundedBy -->
+
+    <owl:ObjectProperty rdf:about="#boundedBy">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:range rdf:resource="#Cell"/>
+        <rdfs:domain rdf:resource="#Cell"/>
+        <owl:inverseOf rdf:resource="#boundaryOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#containedIn -->
+
+    <owl:ObjectProperty rdf:about="#containedIn"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#contains -->
+
+    <owl:ObjectProperty rdf:about="#contains">
+        <rdfs:range rdf:resource="#Cell"/>
+        <rdfs:domain rdf:resource="#Complex"/>
+        <owl:inverseOf rdf:resource="#containedIn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#containsCell -->
+
+    <owl:ObjectProperty rdf:about="#containsCell">
+        <rdfs:domain rdf:resource="#ACCSpace"/>
+        <rdfs:range rdf:resource="#Cell"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#coordinates -->
+
+    <owl:ObjectProperty rdf:about="#coordinates">
+        <rdfs:range rdf:resource="#Coordinate"/>
+        <rdfs:domain rdf:resource="#EuclideanCell0D"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/space.owl#connectedTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.macaulay.ac.uk/obiama/ontologies/space.owl#connectedTo"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/space.owl#containsLocations -->
+
+    <owl:ObjectProperty rdf:about="http://www.macaulay.ac.uk/obiama/ontologies/space.owl#containsLocations"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/space.owl#overlaps -->
+
+    <owl:ObjectProperty rdf:about="http://www.macaulay.ac.uk/obiama/ontologies/space.owl#overlaps"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#x -->
+
+    <owl:DatatypeProperty rdf:about="#x">
+        <rdfs:range rdf:resource="&xsd;double"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Coordinate2D"/>
+                    <rdf:Description rdf:about="#Coordinate3D"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#y -->
+
+    <owl:DatatypeProperty rdf:about="#y">
+        <rdfs:range rdf:resource="&xsd;double"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Coordinate2D"/>
+                    <rdf:Description rdf:about="#Coordinate3D"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#z -->
+
+    <owl:DatatypeProperty rdf:about="#z">
+        <rdfs:domain rdf:resource="#Coordinate3D"/>
+        <rdfs:range rdf:resource="&xsd;double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#ACCSpace -->
+
+    <owl:Class rdf:about="#ACCSpace">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.macaulay.ac.uk/obiama/ontologies/space.owl#Space"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.macaulay.ac.uk/obiama/ontologies/space.owl#containsLocations"/>
+                        <owl:someValuesFrom rdf:resource="#Complex"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.macaulay.ac.uk/obiama/ontologies/space.owl#containsLocations"/>
+                        <owl:allValuesFrom rdf:resource="#Complex"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#Cell -->
+
+    <owl:Class rdf:about="#Cell"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#Cell0D -->
+
+    <owl:Class rdf:about="#Cell0D">
+        <rdfs:subClassOf rdf:resource="#Cell"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#Cell1D -->
+
+    <owl:Class rdf:about="#Cell1D">
+        <rdfs:subClassOf rdf:resource="#Cell"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#boundedBy"/>
+                        <owl:someValuesFrom rdf:resource="#Cell0D"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#boundedBy"/>
+                        <owl:allValuesFrom rdf:resource="#Cell0D"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#Cell2D -->
+
+    <owl:Class rdf:about="#Cell2D">
+        <rdfs:subClassOf rdf:resource="#Cell"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#boundedBy"/>
+                        <owl:someValuesFrom rdf:resource="#Cell1D"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#boundedBy"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="#Cell0D"/>
+                                    <rdf:Description rdf:about="#Cell1D"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#Cell3D -->
+
+    <owl:Class rdf:about="#Cell3D">
+        <rdfs:subClassOf rdf:resource="#Cell"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#boundedBy"/>
+                        <owl:someValuesFrom rdf:resource="#Cell2D"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#boundedBy"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="#Cell0D"/>
+                                    <rdf:Description rdf:about="#Cell1D"/>
+                                    <rdf:Description rdf:about="#Cell2D"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#Complex -->
+
+    <owl:Class rdf:about="#Complex">
+        <rdfs:subClassOf rdf:resource="http://www.macaulay.ac.uk/obiama/ontologies/space.owl#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#Complex0D -->
+
+    <owl:Class rdf:about="#Complex0D">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Complex"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#contains"/>
+                        <owl:someValuesFrom rdf:resource="#Cell0D"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#contains"/>
+                        <owl:allValuesFrom rdf:resource="#Cell0D"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#Complex1D -->
+
+    <owl:Class rdf:about="#Complex1D">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Complex"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#contains"/>
+                        <owl:someValuesFrom rdf:resource="#Cell1D"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#contains"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="#Cell0D"/>
+                                    <rdf:Description rdf:about="#Cell1D"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#Complex2D -->
+
+    <owl:Class rdf:about="#Complex2D">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Complex"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#contains"/>
+                        <owl:someValuesFrom rdf:resource="#Cell2D"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#contains"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="#Cell0D"/>
+                                    <rdf:Description rdf:about="#Cell1D"/>
+                                    <rdf:Description rdf:about="#Cell2D"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#Complex3D -->
+
+    <owl:Class rdf:about="#Complex3D">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Complex"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#contains"/>
+                        <owl:someValuesFrom rdf:resource="#Cell3D"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#contains"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="#Cell0D"/>
+                                    <rdf:Description rdf:about="#Cell1D"/>
+                                    <rdf:Description rdf:about="#Cell2D"/>
+                                    <rdf:Description rdf:about="#Cell3D"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#Coordinate -->
+
+    <owl:Class rdf:about="#Coordinate"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#Coordinate2D -->
+
+    <owl:Class rdf:about="#Coordinate2D">
+        <rdfs:subClassOf rdf:resource="#Coordinate"/>
+        <owl:disjointWith rdf:resource="#Coordinate3D"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#Coordinate3D -->
+
+    <owl:Class rdf:about="#Coordinate3D">
+        <rdfs:subClassOf rdf:resource="#Coordinate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#Euclidean2DACCSpace -->
+
+    <owl:Class rdf:about="#Euclidean2DACCSpace">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#ACCSpace"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.macaulay.ac.uk/obiama/ontologies/space.owl#containsLocations"/>
+                        <owl:someValuesFrom rdf:resource="#Euclidean2DComplex"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.macaulay.ac.uk/obiama/ontologies/space.owl#containsLocations"/>
+                        <owl:allValuesFrom rdf:resource="#Euclidean2DComplex"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#Euclidean2DCell -->
+
+    <owl:Class rdf:about="#Euclidean2DCell">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Euclidean2DCell0D"/>
+                    <rdf:Description rdf:about="#Euclidean2DCell1D"/>
+                    <rdf:Description rdf:about="#Euclidean2DCell2D"/>
+                    <rdf:Description rdf:about="#Euclidean2DCell3D"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#Euclidean2DCell0D -->
+
+    <owl:Class rdf:about="#Euclidean2DCell0D">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#EuclideanCell0D"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#coordinates"/>
+                        <owl:someValuesFrom rdf:resource="#Coordinate2D"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#coordinates"/>
+                        <owl:allValuesFrom rdf:resource="#Coordinate2D"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#Euclidean2DCell1D -->
+
+    <owl:Class rdf:about="#Euclidean2DCell1D">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#EuclideanCell1D"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#coordinates"/>
+                        <owl:someValuesFrom rdf:resource="#Coordinate2D"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#boundedBy"/>
+                        <owl:allValuesFrom rdf:resource="#Euclidean2DCell0D"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#Euclidean2DCell2D -->
+
+    <owl:Class rdf:about="#Euclidean2DCell2D"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#Euclidean2DCell3D -->
+
+    <owl:Class rdf:about="#Euclidean2DCell3D"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#Euclidean2DComplex -->
+
+    <owl:Class rdf:about="#Euclidean2DComplex">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Euclidean2DComplex0D"/>
+                    <rdf:Description rdf:about="#Euclidean2DComplex1D"/>
+                    <rdf:Description rdf:about="#Euclidean2DComplex2D"/>
+                    <rdf:Description rdf:about="#Euclidean2DComplex3D"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#Euclidean2DComplex0D -->
+
+    <owl:Class rdf:about="#Euclidean2DComplex0D">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Complex"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#contains"/>
+                        <owl:someValuesFrom rdf:resource="#Euclidean2DCell0D"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#contains"/>
+                        <owl:allValuesFrom rdf:resource="#Euclidean2DCell0D"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#Euclidean2DComplex1D -->
+
+    <owl:Class rdf:about="#Euclidean2DComplex1D">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Complex"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#contains"/>
+                        <owl:someValuesFrom rdf:resource="#Euclidean2DCell1D"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#contains"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="#Euclidean2DCell0D"/>
+                                    <rdf:Description rdf:about="#Euclidean2DCell1D"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#Euclidean2DComplex2D -->
+
+    <owl:Class rdf:about="#Euclidean2DComplex2D">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Complex"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#contains"/>
+                        <owl:someValuesFrom rdf:resource="#Euclidean2DCell2D"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#contains"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="#Euclidean2DCell0D"/>
+                                    <rdf:Description rdf:about="#Euclidean2DCell1D"/>
+                                    <rdf:Description rdf:about="#Euclidean2DCell2D"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#Euclidean2DComplex3D -->
+
+    <owl:Class rdf:about="#Euclidean2DComplex3D">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Complex"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#contains"/>
+                        <owl:someValuesFrom rdf:resource="#Euclidean2DCell3D"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#contains"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="#Euclidean2DCell0D"/>
+                                    <rdf:Description rdf:about="#Euclidean2DCell1D"/>
+                                    <rdf:Description rdf:about="#Euclidean2DCell2D"/>
+                                    <rdf:Description rdf:about="#Euclidean2DCell3D"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#Euclidean3DACCSpace -->
+
+    <owl:Class rdf:about="#Euclidean3DACCSpace">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#ACCSpace"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.macaulay.ac.uk/obiama/ontologies/space.owl#containsLocations"/>
+                        <owl:someValuesFrom rdf:resource="#Euclidean3DComplex"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.macaulay.ac.uk/obiama/ontologies/space.owl#containsLocations"/>
+                        <owl:allValuesFrom rdf:resource="#Euclidean3DComplex"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#Euclidean3DCell -->
+
+    <owl:Class rdf:about="#Euclidean3DCell">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Euclidean3DCell0D"/>
+                    <rdf:Description rdf:about="#Euclidean3DCell1D"/>
+                    <rdf:Description rdf:about="#Euclidean3DCell2D"/>
+                    <rdf:Description rdf:about="#Euclidean3DCell3D"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#Euclidean3DCell0D -->
+
+    <owl:Class rdf:about="#Euclidean3DCell0D">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#EuclideanCell0D"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#coordinates"/>
+                        <owl:someValuesFrom rdf:resource="#Coordinate3D"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#coordinates"/>
+                        <owl:allValuesFrom rdf:resource="#Coordinate3D"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#Euclidean3DCell1D -->
+
+    <owl:Class rdf:about="#Euclidean3DCell1D"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#Euclidean3DCell2D -->
+
+    <owl:Class rdf:about="#Euclidean3DCell2D"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#Euclidean3DCell3D -->
+
+    <owl:Class rdf:about="#Euclidean3DCell3D"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#Euclidean3DComplex -->
+
+    <owl:Class rdf:about="#Euclidean3DComplex">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Euclidean3DComplex0D"/>
+                    <rdf:Description rdf:about="#Euclidean3DComplex1D"/>
+                    <rdf:Description rdf:about="#Euclidean3DComplex2D"/>
+                    <rdf:Description rdf:about="#Euclidean3DComplex3D"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#Euclidean3DComplex0D -->
+
+    <owl:Class rdf:about="#Euclidean3DComplex0D">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Complex"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#contains"/>
+                        <owl:someValuesFrom rdf:resource="#Euclidean3DCell0D"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#contains"/>
+                        <owl:allValuesFrom rdf:resource="#Euclidean3DCell0D"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#Euclidean3DComplex1D -->
+
+    <owl:Class rdf:about="#Euclidean3DComplex1D">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Complex"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#contains"/>
+                        <owl:someValuesFrom rdf:resource="#Euclidean3DCell1D"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#contains"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="#Euclidean3DCell0D"/>
+                                    <rdf:Description rdf:about="#Euclidean3DCell1D"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#Euclidean3DComplex2D -->
+
+    <owl:Class rdf:about="#Euclidean3DComplex2D">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Complex"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#contains"/>
+                        <owl:someValuesFrom rdf:resource="#Euclidean3DCell2D"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#contains"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="#Euclidean3DCell0D"/>
+                                    <rdf:Description rdf:about="#Euclidean3DCell1D"/>
+                                    <rdf:Description rdf:about="#Euclidean3DCell2D"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#Euclidean3DComplex3D -->
+
+    <owl:Class rdf:about="#Euclidean3DComplex3D">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Complex"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#contains"/>
+                        <owl:someValuesFrom rdf:resource="#Euclidean3DCell3D"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#contains"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="#Euclidean3DCell0D"/>
+                                    <rdf:Description rdf:about="#Euclidean3DCell1D"/>
+                                    <rdf:Description rdf:about="#Euclidean3DCell2D"/>
+                                    <rdf:Description rdf:about="#Euclidean3DCell3D"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#EuclideanCell -->
+
+    <owl:Class rdf:about="#EuclideanCell">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Cell"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#boundedBy"/>
+                        <owl:allValuesFrom rdf:resource="#EuclideanCell"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#EuclideanCell0D -->
+
+    <owl:Class rdf:about="#EuclideanCell0D">
+        <rdfs:subClassOf rdf:resource="#Cell0D"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#EuclideanCell1D -->
+
+    <owl:Class rdf:about="#EuclideanCell1D">
+        <rdfs:subClassOf rdf:resource="#Cell1D"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#EuclideanCell2D -->
+
+    <owl:Class rdf:about="#EuclideanCell2D">
+        <rdfs:subClassOf rdf:resource="#Cell2D"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#EuclideanCell3D -->
+
+    <owl:Class rdf:about="#EuclideanCell3D">
+        <rdfs:subClassOf rdf:resource="#Cell3D"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#EuclideanComplex0D -->
+
+    <owl:Class rdf:about="#EuclideanComplex0D">
+        <rdfs:subClassOf rdf:resource="#Complex0D"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#EuclideanComplex1D -->
+
+    <owl:Class rdf:about="#EuclideanComplex1D">
+        <rdfs:subClassOf rdf:resource="#Complex1D"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#EuclideanComplex2D -->
+
+    <owl:Class rdf:about="#EuclideanComplex2D">
+        <rdfs:subClassOf rdf:resource="#Complex2D"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/ACC.owl#EuclideanComplex3D -->
+
+    <owl:Class rdf:about="#EuclideanComplex3D">
+        <rdfs:subClassOf rdf:resource="#Complex3D"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/space.owl#Location -->
+
+    <owl:Class rdf:about="http://www.macaulay.ac.uk/obiama/ontologies/space.owl#Location"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/space.owl#Space -->
+
+    <owl:Class rdf:about="http://www.macaulay.ac.uk/obiama/ontologies/space.owl#Space"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdfs:subPropertyOf rdf:resource="#containsCell"/>
+        <owl2:propertyChain rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.macaulay.ac.uk/obiama/ontologies/space.owl#containsLocations"/>
+            <rdf:Description rdf:about="#contains"/>
+        </owl2:propertyChain>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:subPropertyOf rdf:resource="http://www.macaulay.ac.uk/obiama/ontologies/space.owl#overlaps"/>
+        <owl2:propertyChain rdf:parseType="Collection">
+            <rdf:Description rdf:about="#contains"/>
+            <rdf:Description rdf:about="#containedIn"/>
+        </owl2:propertyChain>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:subPropertyOf rdf:resource="http://www.macaulay.ac.uk/obiama/ontologies/space.owl#connectedTo"/>
+        <owl2:propertyChain rdf:parseType="Collection">
+            <rdf:Description rdf:about="#contains"/>
+            <rdf:Description rdf:about="#boundedBy"/>
+            <rdf:Description rdf:about="#boundaryOf"/>
+            <rdf:Description rdf:about="#containedIn"/>
+        </owl2:propertyChain>
+    </rdf:Description>
+</rdf:RDF>

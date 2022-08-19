@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY owl2 "http://www.w3.org/2006/12/owl2#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY SimpleExample3 "http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample3.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample3-Init.owl#"
+     xml:base="http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample3-Init.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl2="http://www.w3.org/2006/12/owl2#"
+     xmlns:SimpleExample3="http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample3.owl#">
+    <owl:Ontology rdf:about="">
+        <owl:imports rdf:resource="http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample3.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample3.owl#age -->
+
+    <owl:DatatypeProperty rdf:about="&SimpleExample3;age"/>
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample3.owl#shoeSize -->
+
+    <owl:DatatypeProperty rdf:about="&SimpleExample3;shoeSize"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample3.owl#Agent -->
+
+    <owl:Class rdf:about="&SimpleExample3;Agent"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="&owl;Thing"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample3-Init.owl#agent0 -->
+
+    <owl:Thing rdf:about="#agent0">
+        <rdf:type rdf:resource="&SimpleExample3;Agent"/>
+    </owl:Thing>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl2;Axiom"/>
+        <rdf:subject rdf:resource="#agent0"/>
+        <rdf:predicate rdf:resource="&SimpleExample3;age"/>
+        <rdf:object rdf:datatype="&xsd;int">20</rdf:object>
+        <rdfs:comment
+            >uk.ac.macaulay.obiama.action.IncrementerActivity</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl2;Axiom"/>
+        <rdf:subject rdf:resource="#agent0"/>
+        <rdf:predicate rdf:resource="&SimpleExample3;shoeSize"/>
+        <rdf:object rdf:datatype="&xsd;int">22</rdf:object>
+        <rdfs:comment
+            >uk.ac.macaulay.obiama.action.IncrementerActivity</rdfs:comment>
+    </rdf:Description>
+</rdf:RDF>

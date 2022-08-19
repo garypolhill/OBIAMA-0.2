@@ -1,0 +1,3580 @@
+COMMAND_LINE_ARGUMENTS:
+	schedule = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl
+	ontology.search.path = /Users/gp40285/OBIAMA-0.2/examples/SimpleExample4:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/../../ontologies
+	save.inferred = true
+	initial.schedule = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#initialisation
+	use.reasoner = true
+	log = SimpleExample2.log
+	save.dir = /Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output
+	main.schedule = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#schedule
+	ontology = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4.owl
+LOAD_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/FloatingPointComparisons.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/../../ontologies/FloatingPointComparison.owl
+	is-imported = true
+LOAD_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/../../ontologies/Schedule.owl
+	is-imported = true
+LOAD_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.obiama.org/ontology/obiama.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/../../ontologies/obiama.owl
+	is-imported = true
+LOAD_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/SimpleExample4.owl
+	is-imported = false
+RNG:
+	RNG-class = MTRNG
+SEED:
+	seed = 3724243036
+LOAD_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/FloatingPointComparisons.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/../../ontologies/FloatingPointComparison.owl
+	is-imported = true
+LOAD_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/schedule.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/../../ontologies/Schedule.owl
+	is-imported = true
+LOAD_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/SimpleExample4-Schedule.owl
+	is-imported = false
+RESET:
+	runID = obiama-ffffffff8fea4def-182b637e826
+START_INITIAL_SCHEDULE:
+	schedule-uri = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#initialisation
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#createAgentsSequence
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#createNAgentsAction
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4.owl#sampleAgeAction
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "16"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = ClassAssertion(Agent Agent_1)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T0.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T0.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T0.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T0.0.owl
+UPDATE:
+	n-removed-axioms = 0
+	n-added-axioms = 4
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4.owl#sampleAgeAction
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "19"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = ClassAssertion(Agent Agent_2)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T0.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T0.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T0.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T0.0.owl
+UPDATE:
+	n-removed-axioms = 0
+	n-added-axioms = 4
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4.owl#sampleAgeAction
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "18"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = ClassAssertion(Agent Agent_3)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T0.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T0.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T0.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T0.0.owl
+UPDATE:
+	n-removed-axioms = 0
+	n-added-axioms = 4
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4.owl#sampleAgeAction
+ADD_AXIOM:
+	axiom = ClassAssertion(Agent Agent_4)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "26"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T0.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T0.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T0.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T0.0.owl
+UPDATE:
+	n-removed-axioms = 0
+	n-added-axioms = 4
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4.owl#sampleAgeAction
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "18"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = ClassAssertion(Agent Agent_5)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T0.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T0.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T0.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T0.0.owl
+UPDATE:
+	n-removed-axioms = 0
+	n-added-axioms = 4
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T0.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T0.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T0.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T0.0.owl
+UPDATE:
+	n-removed-axioms = 0
+	n-added-axioms = 0
+STOP_INITIAL_SCHEDULE:
+	schedule-uri = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#initialisation
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "18"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "19"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T0.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T1.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T0.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T1.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "26"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "27"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T1.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T1.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T1.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T1.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "19"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "20"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T1.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T1.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T1.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T1.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "16"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "17"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T1.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T1.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T1.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T1.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "18"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "19"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T1.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T1.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T1.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T1.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "17"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "18"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T1.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T2.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T1.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T2.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "19"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "20"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T2.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T2.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T2.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T2.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "19"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "20"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T2.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T2.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T2.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T2.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "27"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "28"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T2.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T2.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T2.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T2.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "20"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "21"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T2.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T2.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T2.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T2.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "20"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "21"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T2.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T3.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T2.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T3.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "28"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "29"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T3.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T3.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T3.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T3.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "21"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "22"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T3.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T3.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T3.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T3.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "18"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "19"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T3.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T3.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T3.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T3.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "20"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "21"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T3.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T3.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T3.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T3.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "19"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "20"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T3.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T4.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T3.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T4.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "21"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "22"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T4.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T4.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T4.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T4.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "29"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "30"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T4.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T4.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T4.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T4.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "22"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "23"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T4.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T4.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T4.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T4.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "21"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "22"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T4.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T4.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T4.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T4.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "23"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "24"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T4.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T5.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T4.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T5.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "30"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "31"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T5.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T5.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T5.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T5.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "22"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "23"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T5.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T5.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T5.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T5.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "22"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "23"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T5.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T5.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T5.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T5.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "20"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "21"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T5.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T5.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T5.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T5.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "23"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "24"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T5.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T6.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T5.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T6.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "21"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "22"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T6.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T6.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T6.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T6.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "23"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "24"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T6.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T6.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T6.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T6.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "31"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "32"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T6.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T6.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T6.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T6.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "24"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "25"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T6.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T6.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T6.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T6.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "24"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "25"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T6.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T7.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T6.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T7.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "22"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "23"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T7.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T7.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T7.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T7.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "32"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "33"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T7.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T7.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T7.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T7.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "24"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "25"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T7.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T7.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T7.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T7.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "25"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "26"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T7.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T7.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T7.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T7.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "26"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "27"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T7.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T8.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T7.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T8.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "33"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "34"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T8.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T8.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T8.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T8.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "25"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "26"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T8.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T8.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T8.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T8.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "25"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "26"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T8.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T8.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T8.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T8.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "23"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "24"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T8.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T8.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T8.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T8.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "34"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "35"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T8.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T9.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T8.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T9.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "27"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "28"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T9.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T9.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T9.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T9.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "24"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "25"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T9.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T9.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T9.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T9.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "26"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "27"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T9.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T9.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T9.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T9.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "26"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "27"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T9.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T9.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T9.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T9.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "28"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "29"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T9.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T10.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T9.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T10.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "27"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "28"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T10.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T10.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T10.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T10.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "35"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "36"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T10.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T10.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T10.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T10.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "27"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "28"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T10.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T10.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T10.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T10.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "25"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "26"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T10.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T10.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T10.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T10.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "28"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "29"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T10.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T11.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T10.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T11.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "26"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "27"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T11.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T11.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T11.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T11.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "28"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "29"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T11.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T11.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T11.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T11.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "29"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "30"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T11.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T11.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T11.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T11.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "36"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "37"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T11.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T11.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T11.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T11.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "30"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "31"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T11.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T12.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T11.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T12.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "27"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "28"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T12.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T12.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T12.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T12.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "29"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "30"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T12.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T12.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T12.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T12.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "29"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "30"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T12.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T12.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T12.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T12.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "37"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "38"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T12.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T12.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T12.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T12.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "28"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "29"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T12.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T13.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T12.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T13.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "31"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "32"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T13.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T13.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T13.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T13.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "38"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "39"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T13.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T13.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T13.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T13.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "30"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "31"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T13.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T13.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T13.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T13.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "30"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "31"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T13.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T13.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T13.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T13.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "39"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "40"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T13.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T14.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T13.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T14.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "32"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "33"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T14.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T14.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T14.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T14.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "31"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "32"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T14.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T14.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T14.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T14.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "31"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "32"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T14.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T14.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T14.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T14.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "29"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "30"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T14.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T14.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T14.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T14.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "33"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "34"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T14.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T15.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T14.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T15.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "32"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "33"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T15.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T15.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T15.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T15.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "40"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "41"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T15.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T15.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T15.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T15.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "30"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "31"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T15.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T15.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T15.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T15.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "32"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "33"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T15.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T15.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T15.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T15.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "33"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "34"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T15.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T16.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T15.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T16.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "34"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "35"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T16.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T16.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T16.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T16.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "31"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "32"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T16.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T16.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T16.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T16.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "41"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "42"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T16.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T16.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T16.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T16.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "33"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "34"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T16.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T16.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T16.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T16.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "35"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "36"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T16.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T17.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T16.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T17.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "34"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "35"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T17.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T17.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T17.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T17.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "32"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "33"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T17.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T17.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T17.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T17.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "42"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "43"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T17.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T17.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T17.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T17.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "34"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "35"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T17.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T17.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T17.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T17.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "35"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "36"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T17.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T18.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T17.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T18.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "43"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "44"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T18.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T18.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T18.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T18.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "35"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "36"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T18.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T18.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T18.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T18.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "33"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "34"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T18.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T18.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T18.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T18.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "36"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "37"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T18.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T18.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T18.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T18.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "44"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "45"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T18.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T19.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T18.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T19.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "36"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "37"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T19.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T19.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T19.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T19.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "37"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "38"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T19.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T19.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T19.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T19.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "34"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "35"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T19.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T19.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T19.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T19.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "36"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "37"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T19.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T19.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T19.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T19.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "37"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "38"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T19.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T20.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T19.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T20.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "35"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "36"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T20.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T20.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T20.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T20.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "38"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "39"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T20.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T20.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T20.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T20.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "45"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "46"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T20.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T20.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T20.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T20.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "37"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "38"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T20.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T20.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T20.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T20.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "36"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "37"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T20.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T21.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T20.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T21.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "38"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "39"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T21.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T21.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T21.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T21.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "46"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "47"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T21.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T21.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T21.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T21.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "39"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "40"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T21.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T21.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T21.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T21.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "38"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "39"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T21.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T21.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T21.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T21.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "39"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "40"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T21.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T22.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T21.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T22.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "39"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "40"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T22.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T22.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T22.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T22.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "47"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "48"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T22.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T22.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T22.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T22.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "40"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "41"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T22.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T22.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T22.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T22.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "37"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "38"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T22.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T22.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T22.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T22.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "40"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "41"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T22.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T23.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T22.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T23.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "41"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "42"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T23.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T23.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T23.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T23.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "48"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "49"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T23.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T23.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T23.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T23.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "38"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "39"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T23.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T23.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T23.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T23.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "40"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "41"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T23.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T23.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T23.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T23.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "42"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "43"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T23.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T24.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T23.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T24.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "41"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "42"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T24.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T24.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T24.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T24.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "49"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "50"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T24.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T24.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T24.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T24.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "41"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "42"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T24.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T24.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T24.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T24.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "39"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "40"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T24.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T24.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T24.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T24.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "43"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "44"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T24.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T25.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T24.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T25.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "50"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "51"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T25.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T25.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T25.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T25.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "40"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "41"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T25.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T25.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T25.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T25.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "42"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "43"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T25.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T25.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T25.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T25.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "42"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "43"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T25.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T25.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T25.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T25.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "43"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "44"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T25.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T26.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T25.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T26.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "44"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "45"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T26.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T26.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T26.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T26.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "43"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "44"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T26.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T26.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T26.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T26.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "51"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "52"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T26.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T26.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T26.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T26.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "41"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "42"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T26.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T26.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T26.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T26.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "44"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "45"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T26.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T27.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T26.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T27.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "42"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "43"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T27.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T27.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T27.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T27.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "45"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "46"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T27.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T27.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T27.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T27.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "52"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "53"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T27.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T27.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T27.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T27.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "44"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "45"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T27.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T27.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T27.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T27.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "46"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "47"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T27.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T28.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T27.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T28.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "45"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "46"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T28.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T28.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T28.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T28.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "45"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "46"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T28.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T28.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T28.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T28.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "43"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "44"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T28.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T28.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T28.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T28.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "53"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "54"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T28.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T28.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T28.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T28.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "44"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "45"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T28.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T29.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T28.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T29.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "46"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "47"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T29.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T29.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T29.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T29.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "47"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "48"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T29.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T29.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T29.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T29.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "54"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "55"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T29.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T29.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T29.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T29.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "46"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "47"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T29.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T29.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T29.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T29.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "45"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "46"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T29.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T30.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T29.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T30.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "55"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "56"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T30.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T30.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T30.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T30.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "47"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "48"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T30.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T30.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T30.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T30.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "48"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "49"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T30.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T30.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T30.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T30.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "47"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "48"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T30.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T30.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T30.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T30.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "56"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "57"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T30.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T31.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T30.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T31.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "48"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "49"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T31.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T31.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T31.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T31.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "49"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "50"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T31.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T31.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T31.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T31.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "48"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "49"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T31.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T31.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T31.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T31.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "46"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "47"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T31.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T31.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T31.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T31.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "49"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "50"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T31.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T32.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T31.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T32.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "57"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "58"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T32.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T32.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T32.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T32.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "49"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "50"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T32.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T32.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T32.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T32.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "50"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "51"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T32.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T32.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T32.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T32.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "47"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "48"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T32.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T32.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T32.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T32.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "58"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "59"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T32.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T33.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T32.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T33.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "50"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "51"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T33.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T33.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T33.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T33.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "48"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "49"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T33.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T33.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T33.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T33.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "51"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "52"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T33.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T33.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T33.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T33.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "50"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "51"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T33.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T33.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T33.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T33.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "49"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "50"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T33.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T34.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T33.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T34.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "51"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "52"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T34.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T34.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T34.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T34.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "51"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "52"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T34.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T34.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T34.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T34.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "59"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "60"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T34.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T34.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T34.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T34.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "52"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "53"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T34.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T34.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T34.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T34.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "50"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "51"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T34.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T35.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T34.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T35.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "53"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "54"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T35.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T35.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T35.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T35.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "52"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "53"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T35.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T35.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T35.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T35.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "52"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "53"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T35.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T35.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T35.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T35.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "60"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "61"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T35.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T35.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T35.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T35.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "51"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "52"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T35.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T36.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T35.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T36.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "53"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "54"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T36.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T36.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T36.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T36.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "54"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "55"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T36.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T36.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T36.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T36.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "53"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "54"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T36.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T36.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T36.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T36.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "61"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "62"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T36.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T36.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T36.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T36.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+ACTION:
+	action-URI = http://www.macaulay.ac.uk/obiama/ontologies/SimpleExample4-Schedule.owl#incrementAgeAction
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "54"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_3 "55"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T36.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T37.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T36.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T37.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "54"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_5 "55"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T37.0/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T37.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T37.0/Inferred-obiama-ffffffff8fea4def-182b637e826-T37.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "52"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_1 "53"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T37.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T37.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T37.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T37.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "55"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_2 "56"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T37.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T37.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T37.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T37.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
+REMOVE_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "62"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = DataPropertyAssertion(age Agent_4 "63"^^int)
+	ontology = state.owl
+ADD_AXIOM:
+	axiom = 
+	ontology = state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = state.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T37.0-1/state.owl
+SAVE_ONTOLOGY_SUCCESS:
+	logical-uri = http://www.macaulay.ac.uk/obiama/ontologies/Inferred-obiama-ffffffff8fea4def-182b637e826-T37.0.owl
+	physical-uri = file:/Users/gp40285/OBIAMA-0.2/examples/SimpleExample4/output/state-T37.0-1/Inferred-obiama-ffffffff8fea4def-182b637e826-T37.0.owl
+UPDATE:
+	n-removed-axioms = 1
+	n-added-axioms = 2
